@@ -1,0 +1,31 @@
+package AppiumTutorial;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class AppiumTest {
+  @Test
+  public void f() {
+	  System.out.println("@Test");
+  }
+  
+  @Test
+  public void editText() {
+	  System.out.println("@Test : EditText");
+  }
+  
+  @BeforeTest
+  public void beforeTest() {
+	  System.out.println("@BeforeTest");
+	  // ADV 실행
+	  // Appium  server 실행
+  }
+
+  @AfterTest
+  public void afterTest() {
+	  System.out.println("@AfterTest");
+	  // Appium server 종료
+	  // ADV 종료
+  }
+}
