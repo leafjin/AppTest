@@ -440,3 +440,251 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:18.313
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:18.320
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:19.741
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:19.746
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:26.806
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:40:26.809
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.587
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.588
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.589
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.589
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.592
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.592
+!MESSAGE Launch configuration AppiumTest references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.593
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.593
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.594
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.594
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-06-21 09:40:41.598
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1839)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1714)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2019-06-21 09:40:41.598
+!MESSAGE Launch configuration AppiumTutorial_src.test.java.AppiumTutorial.AppiumTest.java references non-existing project AppiumTutorial_ex.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:41:55.249
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:41:55.253
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:41:56.987
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:41:56.990
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:46:21.836
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:46:21.839
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:46:23.679
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:46:23.682
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:53:24.461
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:53:24.464
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:53:24.599
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:53:24.601
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-06-21 09:53:24.791
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar C:\MobileAppTest\workspace\AppiumTutorial\target\test-classes C:\MobileAppTest\workspace\AppiumTutorial\target\classes C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\CHAMP29\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\CHAMP29\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\CHAMP29\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\CHAMP29\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\CHAMP29\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\CHAMP29\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\CHAMP29\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\CHAMP29\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\CHAMP29\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\CHAMP29\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\CHAMP29\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\CHAMP29\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\CHAMP29\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\CHAMP29\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar C:\Users\CHAMP29\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar C:\Users\CHAMP29\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar C:\Users\CHAMP29\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar C:\Users\CHAMP29\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\CHAMP29\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\CHAMP29\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar C:\Users\CHAMP29\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar C:\Users\CHAMP29\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar C:\Users\CHAMP29\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar C:\Users\CHAMP29\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar C:\Users\CHAMP29\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar C:\Users\CHAMP29\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar C:\Users\CHAMP29\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar C:\Users\CHAMP29\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar C:\Users\CHAMP29\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar C:\Users\CHAMP29\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar C:\Users\CHAMP29\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51012 -protocol json -d C:\MobileAppTest\workspace\AppiumTutorial\test-output C:\Users\CHAMP29\AppData\Local\Temp\testng-eclipse--1473477263\testng-customsuite.xml
+java -ea -classpath C:\eclipse\configuration\org.eclipse.osgi\484\0\.cp\lib\testng-remote.jar:C:\MobileAppTest\workspace\AppiumTutorial\target\test-classes:C:\MobileAppTest\workspace\AppiumTutorial\target\classes:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\CHAMP29\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\CHAMP29\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\CHAMP29\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\CHAMP29\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\CHAMP29\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\CHAMP29\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\CHAMP29\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\CHAMP29\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\CHAMP29\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\CHAMP29\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\CHAMP29\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\CHAMP29\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\CHAMP29\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\CHAMP29\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar:C:\Users\CHAMP29\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar:C:\Users\CHAMP29\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar:C:\Users\CHAMP29\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar:C:\Users\CHAMP29\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\CHAMP29\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\CHAMP29\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar:C:\Users\CHAMP29\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar:C:\Users\CHAMP29\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar:C:\Users\CHAMP29\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar:C:\Users\CHAMP29\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar:C:\Users\CHAMP29\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar:C:\Users\CHAMP29\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar:C:\Users\CHAMP29\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar:C:\Users\CHAMP29\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar:C:\Users\CHAMP29\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar:C:\Users\CHAMP29\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar:C:\Users\CHAMP29\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar org.testng.remote.RemoteTestNG -serport 51012 -protocol json -d C:\MobileAppTest\workspace\AppiumTutorial\test-output C:\Users\CHAMP29\AppData\Local\Temp\testng-eclipse--1473477263\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:54:32.562
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-21 09:54:32.564
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

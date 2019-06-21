@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20658" started-at="2019-06-20T08:24:44Z" finished-at="2019-06-20T08:25:05Z">
+  <suite name="Default suite" duration-ms="22471" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20658" started-at="2019-06-20T08:24:44Z" finished-at="2019-06-20T08:25:05Z">
-      <class name="AppiumTutorial.AppiumTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTutorial.AppiumTest@5442a311]" name="beforeTest" is-config="true" duration-ms="6305" started-at="2019-06-20T08:24:44Z" finished-at="2019-06-20T08:24:50Z">
+    <test name="Default test" duration-ms="22471" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:47Z">
+      <class name="AppiumTutorial.AndroidTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="beforeTest" is-config="true" duration-ms="7849" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="editText()[pri:0, instance:AppiumTutorial.AppiumTest@5442a311]" name="editText" duration-ms="12764" started-at="2019-06-20T08:24:50Z" finished-at="2019-06-20T08:25:03Z">
+        <test-method status="PASS" signature="editText()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="editText" duration-ms="12973" started-at="2019-06-21T00:53:33Z" finished-at="2019-06-21T00:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editText -->
-        <test-method status="PASS" signature="f()[pri:0, instance:AppiumTutorial.AppiumTest@5442a311]" name="f" duration-ms="1" started-at="2019-06-20T08:25:03Z" finished-at="2019-06-20T08:25:03Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="f" duration-ms="1" started-at="2019-06-21T00:53:46Z" finished-at="2019-06-21T00:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTutorial.AppiumTest@5442a311]" name="afterTest" is-config="true" duration-ms="1567" started-at="2019-06-20T08:25:03Z" finished-at="2019-06-20T08:25:05Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="afterTest" is-config="true" duration-ms="1630" started-at="2019-06-21T00:53:46Z" finished-at="2019-06-21T00:53:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- AppiumTutorial.AppiumTest -->
+      </class> <!-- AppiumTutorial.AndroidTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

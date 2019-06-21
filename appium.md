@@ -1,3 +1,6 @@
+강의 내용정리
+
+
 # 1. test 환경 구축
 - JDK -> JAVA_HOME Path
 - Eclipse -> TestNG,cucumber, Maven
