@@ -23,6 +23,7 @@ public class AndroidTestExt {
   public void f() {
 	  System.out.println("AndroidTest Ext version");
   }
+  
   @BeforeTest
   public void beforeTest() throws MalformedURLException {
 	  
@@ -33,7 +34,9 @@ public class AndroidTestExt {
 	  capabilities.setCapability("deviceName","Pixel 2 API 23");
 	  capabilities.setCapability("avd","Pixel_2_API_23");
 	  capabilities.setCapability("platformversion","6.0");
+	  
 	  // 테스트 후 APK를 삭제하기 위한 속성
+	  // 참고 : https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/other/reset-strategies.md
 	  capabilities.setCapability("noReset","false");
 	  capabilities.setCapability("fullReset","true");
 
@@ -42,7 +45,7 @@ public class AndroidTestExt {
 	  capabilities.setCapability("appPackage", "io.appium.android.apis");
 	  capabilities.setCapability("appActivity", "ApiDemos"); 
 	 
-	   driver = new AndroidDriver<> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+	   driver = new AndroidDriver<AndroidElement> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
   }
 
   @AfterTest

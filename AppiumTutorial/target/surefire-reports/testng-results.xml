@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28497" started-at="2019-06-21T06:38:04Z" finished-at="2019-06-21T06:38:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28497" started-at="2019-06-21T06:38:04Z" finished-at="2019-06-21T06:38:33Z">
+      <class name="AppiumTutorial.AndroidTestExtServer">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@737996a0]" name="beforeTest" is-config="true" duration-ms="13321" started-at="2019-06-21T06:38:04Z" finished-at="2019-06-21T06:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editText()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@737996a0]" name="editText" duration-ms="12816" started-at="2019-06-21T06:38:17Z" finished-at="2019-06-21T06:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editText -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@737996a0]" name="f" duration-ms="0" started-at="2019-06-21T06:38:30Z" finished-at="2019-06-21T06:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@737996a0]" name="afterTest" is-config="true" duration-ms="2345" started-at="2019-06-21T06:38:30Z" finished-at="2019-06-21T06:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AppiumTutorial.AndroidTestExtServer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

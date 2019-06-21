@@ -5,7 +5,6 @@
     <classes>
       <class name="AppiumTutorial.AndroidTestExtServer">
         <methods>
-          <include name="f"/>
           <include name="editText"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>

@@ -37,7 +37,7 @@ public class AndroidTest {
 	  capabilities.setCapability("appPackage", "io.appium.android.apis");
 	  capabilities.setCapability("appActivity", "ApiDemos"); 
 	 
-	   driver = new AndroidDriver<> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+	   driver = new AndroidDriver<AndroidElement> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
   }
 
   @AfterTest

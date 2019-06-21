@@ -3,6 +3,7 @@ package AppiumTutorial;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -16,6 +17,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class AndroidTestExtServer {
@@ -57,7 +59,7 @@ public class AndroidTestExtServer {
 	  service = AppiumDriverLocalService.buildService(builder);
 	  service.start();
 	 
-	  driver = new AndroidDriver<> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+	  driver = new AndroidDriver<AndroidElement> (new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
   }
 
   @AfterTest
@@ -78,9 +80,10 @@ public class AndroidTestExtServer {
   }
   
   @Test
-  public void editText() {
-	  
+  public void editText() throws Exception {
+	    
 	  // Appium inspector의 recording 기능에서 가져온 script
+	  
 	  MobileElement el1 = (MobileElement) driver.findElementByAccessibilityId("Preference");
 	  el1.click();
 	  MobileElement el2 = (MobileElement) driver.findElementByAccessibilityId("4. Default values");
@@ -98,7 +101,7 @@ public class AndroidTestExtServer {
 
 	// 결과 점검: 다시 Edit 창을 띄웠을 때 설정한 문자열(Dog)가 표시되는지 assert로 확인
 	  el3.click();
+
 	  assert el4.getText().equals("Dog"):"Actual value is : "+el4.getText()+" did not match with expected value: Dog";
   }
-
 }

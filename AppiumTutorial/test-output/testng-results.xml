@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22471" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:47Z">
+  <suite name="Default suite" duration-ms="14526" started-at="2019-06-21T04:45:10Z" finished-at="2019-06-21T04:45:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22471" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:47Z">
-      <class name="AppiumTutorial.AndroidTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="beforeTest" is-config="true" duration-ms="7849" started-at="2019-06-21T00:53:25Z" finished-at="2019-06-21T00:53:33Z">
+    <test name="Default test" duration-ms="14526" started-at="2019-06-21T04:45:10Z" finished-at="2019-06-21T04:45:25Z">
+      <class name="AppiumTutorial.AndroidTestExtServer">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@13deb50e]" name="beforeTest" is-config="true" duration-ms="11950" started-at="2019-06-21T04:45:10Z" finished-at="2019-06-21T04:45:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="editText()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="editText" duration-ms="12973" started-at="2019-06-21T00:53:33Z" finished-at="2019-06-21T00:53:46Z">
+        <test-method status="FAIL" signature="editText()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@13deb50e]" name="editText" duration-ms="283" started-at="2019-06-21T04:45:22Z" finished-at="2019-06-21T04:45:23Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[io.appium.java_client.android.AndroidDriver cannot be cast to org.openqa.selenium.interactions.HasTouchScreen]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: io.appium.java_client.android.AndroidDriver cannot be cast to org.openqa.selenium.interactions.HasTouchScreen
+at org.openqa.selenium.interactions.touch.TouchActions.<init>(TouchActions.java:38)
+at AppiumTutorial.AndroidTestExtServer.editText(AndroidTestExtServer.java:89)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editText -->
-        <test-method status="PASS" signature="f()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="f" duration-ms="1" started-at="2019-06-21T00:53:46Z" finished-at="2019-06-21T00:53:46Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@13deb50e]" name="f" duration-ms="1" started-at="2019-06-21T04:45:23Z" finished-at="2019-06-21T04:45:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTutorial.AndroidTest@5442a311]" name="afterTest" is-config="true" duration-ms="1630" started-at="2019-06-21T00:53:46Z" finished-at="2019-06-21T00:53:47Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AppiumTutorial.AndroidTestExtServer@13deb50e]" name="afterTest" is-config="true" duration-ms="2271" started-at="2019-06-21T04:45:23Z" finished-at="2019-06-21T04:45:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- AppiumTutorial.AndroidTest -->
+      </class> <!-- AppiumTutorial.AndroidTestExtServer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
